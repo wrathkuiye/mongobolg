@@ -4,7 +4,7 @@
 ## 如无特殊标记 本记录所使用的代码均为python代码
 
 
-###mongo cursor not valid at server  过期的问题解决记录
+### mongo cursor not valid at server  过期的问题解决记录
 
 每次find获取到cursor的时候 mongo会为cursor设置一个ID，并第一次返回100行数据 或者 1M的数据
 当这些数据处理完成之后 会再次使用 cursor的ID去获取下次的数据  下次获取的数量是4M的数据
