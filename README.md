@@ -56,3 +56,10 @@ client_max_body_size 设置上传文件的最大的大小 默认 1M
 我遇到的是第二种情况 解决办法  ： 配置nginx的user 为root
 
 
+### mongo replset配置  基于2.4版本的mongo
+
+
+
+
+
+
